@@ -1,0 +1,257 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family:"Roboto", sans-serif;
+}
+.container
+{
+	width:100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/world_tour.jpg);
+	background-position:center;
+	background-size:cover;
+	padding-left:8%;
+	padding-right:8%;
+	box-sizing:border-box;
+}
+.containerTl
+{
+	width:100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/teamlab_background.gif);
+	background-position:center;
+	background-size:cover;
+	padding-left:8%;
+	padding-right:8%;
+	box-sizing:border-box;
+}
+.containerSv
+{
+	width:100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/svalbard_background.gif);
+	background-position:center;
+	background-size:cover;
+	padding-left:8%;
+	padding-right:8%;
+	box-sizing:border-box;
+}
+.containerOp
+{
+	width:100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/onepiece_background.gif);
+	background-position:center;
+	background-size:cover;
+	padding-left:8%;
+	padding-right:8%;
+	box-sizing:border-box;
+}
+.containerYl
+{
+	width:100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/yellowstone_background.gif);
+	background-position:center;
+	background-size:cover;
+	padding-left:8%;
+	padding-right:8%;
+	box-sizing:border-box;
+}
+.navbar
+{
+	height:12%;
+	display:flex;
+	align-items:center;
+}
+.logo
+{
+	width:50px;
+	cursor:pointer;
+}
+.menu
+{
+	width:30px;
+	cursor:pointer;
+	margin-left:40px;
+}
+nav
+{
+	flex:1;
+	text-align:right;
+}
+nav ul li
+{
+	list-style:none;
+	display:inline-block;
+	margin-left:60px;
+}
+nav ul li a
+{
+	text-decoration:none;
+	color:#fff;
+	font-size:13px;
+} 
+.row
+{
+	display:flex;
+	height:88%;
+	align-items:center;
+}
+.col
+{
+	flex-basis:50%
+}
+h1
+{
+	color:#fff;
+	font-size:80px;
+}
+p
+{
+	color:#fff;
+	font-size:15px;
+	line-height:18px;
+}
+button
+{
+	width:180px;
+	color:#000;
+	font-size:12px;
+	padding:12px 0;
+	background:#fff;
+	border:0;
+	border-radius:20px;
+	outline:none;
+	margin-top:30px;
+	cursor:pointer;
+	transition:transform 0.5s;
+}
+.card
+{
+	width:200px;
+	height:230px;
+	display:inline-block;
+	border-radius:10px;
+	padding:15px 25px;
+	box-sizing:border-box;
+	cursor:pointer;
+	margin: 10px 15px;
+	background-position:center;
+	background-size:cover;
+	transition:transform 0.5s;
+}
+button:hover
+{
+	transform:translateY(-10px);
+}
+.card1
+{
+	background-image:url(../images/teamlab-4.png);
+}
+.card2
+{
+	background-image:url(../images/onepiece-3.png);
+}
+.card3
+{
+	background-image:url(../images/svalbard-4.png);
+}
+.card4
+{
+	background-image:url(../images/yellowstone-2.png);
+}
+.card:hover
+{
+	transform:translateY(-10px);
+}
+h5
+{
+	color:#fff;
+	text-shadow:0 0 5px #999;
+}
+.card p 
+{
+	text-shadow:0 0 15px #000;
+	font-size:8px;
+}
+.separateur
+{
+	position:absolute;
+	left:0; right:0;
+	background-color:pink;
+	height:15px;
+}
+.imgHover
+{
+	margin:70px auto 0;
+	display:flex;
+}
+.imgHover .box
+{
+	position:relative;
+	width:100%;
+	height:250px;
+	margin:10px;
+	box-sizing:border-box;
+	display:inline-block;
+}
+.imgHover .box .imgBox
+{
+	position:relative;
+	overflow:hidden; 
+}
+.imgHover .box .imgBox img
+{
+	max-width:100%; 
+	transition:transform 0.8s;
+}
+.imgHover .box:hover .imgBox img
+{
+	transform:scale(1.2);
+}
+.imgHover .box .details
+{
+	position:absolute;
+	top:10px;
+	bottom:10px;
+	left:10px;
+	right:10px;
+	transform: scaleY(0);
+	transition:transform 0.5s;
+}
+.imgHover .box:hover .details
+{
+	transform: scaleY(1);
+}
+.imgHover .box .details .content
+{
+	position:absolute;
+	top:100%;
+	left:10%;
+	transform:translateY(-50%);
+	text-align:center;
+	color:#000;
+}
+.imgHover .box .details .content h2
+{
+	margin:0;
+	padding:0;
+	font-size:40px;
+	color:#ff0;
+}
+.imgHover .box .details .content p
+{
+	margin:10px 0 0;
+	padding:0;
+	font-size:18px;
+	font-weight:bold;
+}
+.info h2
+{
+	text-align:center;
+	font-size:60px;
+	color:#ff0;
+	margin:20px;
+}
